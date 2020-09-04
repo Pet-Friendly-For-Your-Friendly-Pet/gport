@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import WithClass from '../hoc/WithClass.js';
+
 
 function App() {
   return (
-    <div className="App">
+    <WithClass classes={classes.App}>
       <h1>Initial Commit</h1>
-    </div>
+    </WithClass>
   );
 }
 
