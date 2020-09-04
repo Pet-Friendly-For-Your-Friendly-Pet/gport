@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import WithClass from '../hoc/WithClass.js';
 
 

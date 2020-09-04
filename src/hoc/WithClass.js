@@ -6,7 +6,7 @@ const withClass = props => {
     // className passed to withClass component as props.classes
     <div className={props.classes}>
 
-        {/* return the contents of this higher order component */}
+        {/* return wrapped elements */}
         {props.children}
 
     </div>
