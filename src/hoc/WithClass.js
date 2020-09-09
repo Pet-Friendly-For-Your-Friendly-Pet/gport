@@ -1,15 +1,15 @@
 import React from 'react';
 
-// Set up class on a div that wraps a component
-const withClass = props => {
+// pass the wrapped component & class 
+const withClass = (WrappedComponent, className) => {
 
-    // className passed to withClass component as props.classes
-    <div className={props.classes}>
+    // return functional component wrapped in div
+    return props => (
+        <div className={className}>
+            <WrappedComponent />
+        </div>
+    );
 
-        {/* return wrapped elements */}
-        {props.children}
-
-    </div>
 };
 
 export default withClass;

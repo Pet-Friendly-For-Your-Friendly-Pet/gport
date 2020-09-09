@@ -1,12 +1,12 @@
 import React from 'react';
-import WithClass from '../hoc/WithClass.js';
+
+import withClass from '../hoc/withClass';
+import Layout from '../components/Layout/Layout';
 
 
 function App() {
   return (
-    <WithClass classes={classes.App}>
-      <h1>Initial Commit</h1>
-    </WithClass>
+    <Layout></Layout>
   );
 }
 

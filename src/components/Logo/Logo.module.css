@@ -1,0 +1,9 @@
+.Logo {
+    padding: 8px;
+    height: 100%;
+}
+
+/* img use 100% of this container */
+.Logo img {
+    height: 220%;
+}
