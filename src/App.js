@@ -1,7 +1,6 @@
 import React from 'react';
 
-import withClass from '../hoc/withClass';
-import Layout from '../hoc/Layout/Layout';
+import Layout from './hoc/Layout/Layout';
 
 
 function App() {
