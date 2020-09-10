@@ -1,0 +1,10 @@
+.DesktopOnly {
+    display: none;
+}
+
+/* check if user on mobile device */
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: block;
+    }
+}

@@ -1,9 +1,10 @@
 .Logo {
-    padding: 8px;
     height: 100%;
+    box-sizing: border-box;
 }
 
 /* img use 100% of this container */
 .Logo img {
-    height: 220%;
+    /* height: 220%; */
+    height: 100%
 }

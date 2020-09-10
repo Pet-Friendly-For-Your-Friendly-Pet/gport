@@ -1,0 +1,29 @@
+.SideDrawer {
+    position: fixed;
+    width: 240px;
+    max-width: 70%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 200;
+    background-color: #000;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border: solid 1px #fff;
+    transition: transform 0.3s ease-out;
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close{
+    transform: translateX(-100%);
+}
+
+/* hide sidedrawer on desktop devices */
+@media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
+}

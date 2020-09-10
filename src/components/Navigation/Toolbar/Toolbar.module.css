@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     border-bottom: 1px solid #fff;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,18 @@
     z-index: 90;
 }
 
-/* ensure nav items use 100% of toolbar */
+/* nav items use 100% of toolbar */
 .Toolbar nav {
-    height: 100%;
+    /* height: 100%; */
+}
+
+.Logo {
+    height: 80%;
+}
+
+/* check if user on mobile device */
+@media (max-width: 499px) {
+    .DesktopOnly {
+        display: none;
+    }
 }

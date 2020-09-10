@@ -1,7 +1,7 @@
 import React from 'react';
 
 import withClass from '../hoc/withClass';
-import Layout from '../components/Layout/Layout';
+import Layout from '../hoc/Layout/Layout';
 
 
 function App() {
