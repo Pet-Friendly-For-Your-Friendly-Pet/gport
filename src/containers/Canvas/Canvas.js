@@ -28,10 +28,12 @@ class Landing extends Component {
         // a p5 object "p"
         p.setup = () => {
             let cnv = p.createCanvas(p.windowWidth, p.windowHeight);
+
             cnv.style('display', 'block');
             cnv.style('position', 'absolute');
             cnv.stroke(255);
             p.frameRate(60);
+
         }
 
         p.draw = () => {
