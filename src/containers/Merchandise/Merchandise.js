@@ -7,7 +7,7 @@ class Merchandise extends Component {
     render() {
         return (
             <Aux>
-                <div>
+                <div className={classes.Content}>
                     Merch Item > Merch Image/Description/Companies Used in Production / Pricing
                 </div>
             </Aux>

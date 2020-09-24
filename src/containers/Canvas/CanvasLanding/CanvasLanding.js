@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import classes from './Canvas.module.css';
+import classes from './CanvasLanding.module.css';
 
-import Aux from '../../hoc/Aux/Aux';
-import p5 from 'p5'
+import Aux from '../../../hoc/Aux/Aux';
+import p5 from 'p5';
 
-class Landing extends Component {
+class CanvasLanding extends Component {
 
     constructor(props) {
         super(props)
@@ -12,10 +12,6 @@ class Landing extends Component {
         // p5 instance mode requires a reference on the DOM to mount the sketch
         // use react's createRef function to give p5 a reference
         this.myRef = React.createRef()
-
-        let xvals = [];
-        let yvals = [];
-        let bvals = [];
     }
 
     // This uses p5's instance mode for sketch creation and namespacing
@@ -66,4 +62,4 @@ class Landing extends Component {
     }
 }
 
-export default Landing;
+export default CanvasLanding;

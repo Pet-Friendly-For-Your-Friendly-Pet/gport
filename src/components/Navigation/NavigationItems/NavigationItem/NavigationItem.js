@@ -6,6 +6,7 @@ const navigationItem = (props) => (
     <li className={classes.NavigationItem}>
         <NavLink
             to={props.link}
+            exact={props.exact}
             // make NavLink use CSS module class styles I made (not react-router-dom's)
             activeClassName={classes.active}>{props.children}</NavLink>
     </li>

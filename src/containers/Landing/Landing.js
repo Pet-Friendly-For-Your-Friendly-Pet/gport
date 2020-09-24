@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classes from './Landing.module.css';
 
 import Aux from '../../hoc/Aux/Aux';
-import Canvas from '../Canvas/Canvas';
+import LandingCanvas from '../../containers/Canvas/CanvasLanding/CanvasLanding';
 
 class Landing extends Component {
 
@@ -10,9 +10,8 @@ class Landing extends Component {
         return (
             <Aux>
                 <div className={classes.Content}>
-                    <Canvas />
-                    <div>Other components (Gunsounds Youtube ? / Instagram ?)</div>
-
+                    <LandingCanvas />
+                    <div>Other components (Youtube ? / Instagram ?)</div>
                 </div>
             </Aux>
         );
