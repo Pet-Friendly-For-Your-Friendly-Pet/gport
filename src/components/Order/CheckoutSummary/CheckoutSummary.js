@@ -1,10 +1,12 @@
 import React from 'react';
 
+import classes from './CheckoutSummary.module.css';
+
 const checkoutSummary = (props) => {
     return (
-        <div>
-            <h1>Order Review</h1>
-            <div style={{ width: '300px', height: '300px', margin: 'auto' }}>
+        <div className={classes.CheckoutSummary}>
+            <h1>Review</h1>
+            <div style={{ width: '100%', margin: 'auto' }}>
 
             </div>
         </div>

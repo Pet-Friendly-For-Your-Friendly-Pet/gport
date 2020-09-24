@@ -1,13 +1,18 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
-import Canvas from './containers/Canvas/Canvas';
+import Landing from './containers/Landing/Landing';
 import Layout from './hoc/Layout/Layout';
+import Merchandise from './containers/Merchandise/Merchandise';
 
 function App() {
   return (
     <Layout>
-      <Route path="/" component={Canvas} />
+      <Switch>
+        <Route path="/" component={Landing} />
+        <Route path="/merchandise" component={Merchandise} />
+
+      </Switch>
     </Layout>
   );
 }

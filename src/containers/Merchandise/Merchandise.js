@@ -8,7 +8,7 @@ class Merchandise extends Component {
         return (
             <Aux>
                 <div>
-                    Merch Item > Merch Image/Description/Pricing
+                    Merch Item > Merch Image/Description/Companies Used in Production / Pricing
                 </div>
             </Aux>
         );
