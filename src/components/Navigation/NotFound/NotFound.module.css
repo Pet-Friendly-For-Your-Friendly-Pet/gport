@@ -1,6 +1,5 @@
 .Content {
+    display: flex;
     width: 100%;
-    margin: 32px auto;
     color: #fff;
-    overflow: scroll;
 }

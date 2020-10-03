@@ -13,6 +13,7 @@
     padding: 0 10px;
     box-sizing: border-box;
     z-index: 90;
+    font-weight: 300;
 }
 
 /* nav items use 100% of toolbar */

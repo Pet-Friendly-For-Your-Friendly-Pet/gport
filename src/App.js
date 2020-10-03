@@ -5,6 +5,7 @@ import Design from './containers/Design/Design';
 import Landing from './containers/Landing/Landing';
 import Layout from './hoc/Layout/Layout';
 import Merchandise from './containers/Merchandise/Merchandise';
+import NotFound from './components/Navigation/NotFound/NotFound'
 import Sound from './containers/Sound/Sound';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/design" component={Design} />
         <Route path="/merchandise" component={Merchandise} />
         <Route path="/sound" component={Sound} />
+        <Route component={NotFound} />
       </Switch>
     </Layout>
   );

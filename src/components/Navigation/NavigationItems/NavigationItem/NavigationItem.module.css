@@ -1,10 +1,10 @@
 .NavigationItem {
-    margin: 10px 0;
+    margin: 10px 0px;
     box-sizing: border-box;
     display: block;
     width: 100%;
-    padding: 0px 10px;
-    text-align: center;
+    padding: 30px;
+    text-align: left;
 }
 
 .NavigationItem a {
@@ -13,6 +13,7 @@
     width: 100%;
     box-sizing: border-box;
     display: block;
+    padding-top:5px;
 }
 
 .NavigationItem a:hover,

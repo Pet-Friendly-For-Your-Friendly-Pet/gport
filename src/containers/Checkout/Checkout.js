@@ -4,10 +4,25 @@ import CheckoutSummary from '../../components/Order/CheckoutSummary/CheckoutSumm
 
 class Checkout extends Component {
 
+    purchaseHandler = () => {
+        this.setState({ purchasing: true });
+    }
+
+    purchaseCancelHandler = () => {
+        this.setState({ purchasing: false });
+    }
+
+    purchaseContinueHandler = () => {
+        alert('Continue');
+    }
+
     render() {
         return (
             <div>
-                <CheckoutSummary />
+                <CheckoutSummary
+                    purchaseCanceled={this.purchaseCancelHandler}
+                    purchaseContinued={this.purchaseContinueHandler}
+                />
             </div>
         );
     }
